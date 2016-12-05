@@ -1,0 +1,5 @@
+Index,StageName,Char1,Char2,Char3,Char4,Char5,SetStage
+1,Stage1,Frogman_b,Frogman_b,Frogman_v,null,null,0
+2,Stage2,Rabbit_1,Iguana_w_b,Iguana_w_b,null,null,0
+3,Stage3,Frogman_b,Frogman_b,Iguana_m_b,Iguana_m_b,null,0
+4,Stage4,Frogman_b,Iguana_w_b,Iguana_w_b,Iguana_m_b,null,0
