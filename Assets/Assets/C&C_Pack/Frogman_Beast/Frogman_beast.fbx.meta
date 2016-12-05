@@ -1,0 +1,2646 @@
+fileFormatVersion: 2
+guid: 32180dddf7d96e940be34848bb6ff0c5
+timeCreated: 1459788243
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Bottom_arm.L
+    100002: Bottom_arm.R
+    100004: Bottom_leg.L
+    100006: Bottom_leg.R
+    100008: Bottom_low_leg.L
+    100010: Bottom_low_leg.R
+    100012: Clavicle.L
+    100014: Clavicle.R
+    100016: Elbow_IK.L
+    100018: Elbow_IK.L_end
+    100020: Elbow_IK.R
+    100022: Elbow_IK.R_end
+    100024: Foot.L
+    100026: Foot.R
+    100028: Foot_ctrl.L
+    100030: Foot_ctrl.R
+    100032: Foot_IK.L
+    100034: Foot_IK.L_end
+    100036: Foot_IK.R
+    100038: Foot_IK.R_end
+    100040: FootRoll_crtl.L
+    100042: FootRoll_crtl.L_end
+    100044: FootRoll_crtl.R
+    100046: FootRoll_crtl.R_end
+    100048: greb_1
+    100050: greb_1_end
+    100052: greb_2
+    100054: greb_2_end
+    100056: greb_3
+    100058: greb_3_end
+    100060: Hand.L
+    100062: Hand.L_end
+    100064: Hand.R
+    100066: Hand.R_end
+    100068: Hand_IK.L
+    100070: Hand_IK.R
+    100072: Head
+    100074: Heel_roll.L
+    100076: Heel_roll.R
+    100078: Hips_ctrl
+    100080: jaw
+    100082: jaw_end
+    100084: Knee_IK.L
+    100086: Knee_IK.L_end
+    100088: Knee_IK.R
+    100090: Knee_IK.R_end
+    100092: Murloc_b_arma
+    100094: Murloc_beast
+    100096: //RootNode
+    100098: Neck
+    100100: spine_1
+    100102: spine_2
+    100104: spine_3
+    100106: Toe.L
+    100108: Toe.L_end
+    100110: Toe.R
+    100112: Toe.R_end
+    100114: Toe_roll.L
+    100116: Toe_roll.R
+    100118: Upper_arm.L
+    100120: Upper_arm.R
+    100122: Upper_leg.L
+    100124: Upper_leg.R
+    400000: Bottom_arm.L
+    400002: Bottom_arm.R
+    400004: Bottom_leg.L
+    400006: Bottom_leg.R
+    400008: Bottom_low_leg.L
+    400010: Bottom_low_leg.R
+    400012: Clavicle.L
+    400014: Clavicle.R
+    400016: Elbow_IK.L
+    400018: Elbow_IK.L_end
+    400020: Elbow_IK.R
+    400022: Elbow_IK.R_end
+    400024: Foot.L
+    400026: Foot.R
+    400028: Foot_ctrl.L
+    400030: Foot_ctrl.R
+    400032: Foot_IK.L
+    400034: Foot_IK.L_end
+    400036: Foot_IK.R
+    400038: Foot_IK.R_end
+    400040: FootRoll_crtl.L
+    400042: FootRoll_crtl.L_end
+    400044: FootRoll_crtl.R
+    400046: FootRoll_crtl.R_end
+    400048: greb_1
+    400050: greb_1_end
+    400052: greb_2
+    400054: greb_2_end
+    400056: greb_3
+    400058: greb_3_end
+    400060: Hand.L
+    400062: Hand.L_end
+    400064: Hand.R
+    400066: Hand.R_end
+    400068: Hand_IK.L
+    400070: Hand_IK.R
+    400072: Head
+    400074: Heel_roll.L
+    400076: Heel_roll.R
+    400078: Hips_ctrl
+    400080: jaw
+    400082: jaw_end
+    400084: Knee_IK.L
+    400086: Knee_IK.L_end
+    400088: Knee_IK.R
+    400090: Knee_IK.R_end
+    400092: Murloc_b_arma
+    400094: //RootNode
+    400096: Murloc_beast
+    400098: Neck
+    400100: spine_1
+    400102: spine_2
+    400104: spine_3
+    400106: Toe.L
+    400108: Toe.L_end
+    400110: Toe.R
+    400112: Toe.R_end
+    400114: Toe_roll.L
+    400116: Toe_roll.R
+    400118: Upper_arm.L
+    400120: Upper_arm.R
+    400122: Upper_leg.L
+    400124: Upper_leg.R
+    4300000: Murloc_beast
+    7400000: Murloc_b_arma|Murloc_wm_armaAction.001
+    7400002: walk
+    7400004: run
+    7400006: idle
+    7400008: idle_battle
+    7400010: jump
+    7400012: defence_start
+    7400014: defence_end
+    7400016: cast_roar
+    7400018: hit_1
+    7400020: hit_2
+    7400022: bite_1
+    7400024: bite_2
+    7400026: torment
+    7400028: die_1
+    7400030: die_2
+    9500000: //RootNode
+    13700000: Murloc_beast
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Murloc_b_arma|Murloc_wm_armaAction.001
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 0
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: walk
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 35
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 60
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle_battle
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 130
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: jump
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 170
+      lastFrame: 205
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defence_start
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 210
+      lastFrame: 219
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: defence_end
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 220
+      lastFrame: 235
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: cast_roar
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 235
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit_1
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 285
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: hit_2
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 300
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: bite_1
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 380
+      lastFrame: 410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: bite_2
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 410
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: torment
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 440
+      lastFrame: 480
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die_1
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 310
+      lastFrame: 338
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die_2
+      takeName: Murloc_b_arma|Murloc_wm_armaAction.001
+      firstFrame: 344
+      lastFrame: 368
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Murloc_b_arma
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/FootRoll_crtl.L/FootRoll_crtl.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Heel_roll.L/Toe_roll.L/Foot_IK.L/Foot_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.L/Knee_IK.L/Knee_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/FootRoll_crtl.R/FootRoll_crtl.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Heel_roll.R/Toe_roll.R/Foot_IK.R/Foot_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Foot_ctrl.R/Knee_IK.R/Knee_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.L/Elbow_IK.L/Elbow_IK.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R
+        weight: 1
+      - path: Murloc_b_arma/Hand_IK.R/Elbow_IK.R/Elbow_IK.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/greb_3/greb_3_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.L/Upper_arm.L/Bottom_arm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Clavicle.R/Upper_arm.R/Bottom_arm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/greb_2/greb_2_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/greb_1/greb_1_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/spine_2/spine_3/Neck/Head/jaw/jaw_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.L/Bottom_leg.L/Bottom_low_leg.L/Foot.L/Toe.L/Toe.L_end
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R
+        weight: 1
+      - path: Murloc_b_arma/Hips_ctrl/spine_1/Upper_leg.R/Bottom_leg.R/Bottom_low_leg.R/Foot.R/Toe.R/Toe.R_end
+        weight: 1
+      - path: Murloc_beast
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
