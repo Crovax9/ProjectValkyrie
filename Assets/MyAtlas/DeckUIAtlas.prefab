@@ -56,7 +56,7 @@ MonoBehaviour:
     paddingBottom: 0
   - name: EntMage
     x: 1025
-    y: 1920
+    y: 1791
     width: 128
     height: 128
     borderLeft: 0
@@ -69,19 +69,6 @@ MonoBehaviour:
     paddingBottom: 0
   - name: EntWarrior
     x: 1025
-    y: 1791
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: Goblin_archer
-    x: 1025
     y: 1662
     width: 128
     height: 128
@@ -93,7 +80,20 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Goblin_shaman
+  - name: GoblinArcher
+    x: 1025
+    y: 1920
+    width: 128
+    height: 128
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: GoblinShaman
     x: 1025
     y: 1533
     width: 128
@@ -106,7 +106,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Goblin_warrior
+  - name: GoblinWarrior
     x: 1154
     y: 1920
     width: 128
@@ -132,7 +132,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Ogre_berserk
+  - name: OgreBerserk
     x: 1154
     y: 1791
     width: 128
@@ -145,7 +145,7 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Ogre_shaman
+  - name: OgreShaman
     x: 1154
     y: 1662
     width: 128
@@ -158,87 +158,9 @@ MonoBehaviour:
     paddingRight: 0
     paddingTop: 0
     paddingBottom: 0
-  - name: Ogre_warrior
+  - name: OgreWarrior
     x: 1154
     y: 1533
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: succubus_mage1
-    x: 1283
-    y: 1920
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: succubus_mage2
-    x: 1283
-    y: 1791
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: succubus_mage3
-    x: 1283
-    y: 1662
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: succubus_warrior1
-    x: 1283
-    y: 1533
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: succubus_warrior2
-    x: 1412
-    y: 1920
-    width: 128
-    height: 128
-    borderLeft: 0
-    borderRight: 0
-    borderTop: 0
-    borderBottom: 0
-    paddingLeft: 0
-    paddingRight: 0
-    paddingTop: 0
-    paddingBottom: 0
-  - name: succubus_warrior3
-    x: 1412
-    y: 1791
     width: 128
     height: 128
     borderLeft: 0

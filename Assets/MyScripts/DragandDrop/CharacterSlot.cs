@@ -8,11 +8,6 @@ public class CharacterSlot : MonoBehaviour {
     private const string selectedCharacter = "SeletedCharacter";
     private const string nonselectedCharacter = "Character";
     const string quest = "Quest";
-    enum sceneName
-    {
-        Quest,
-        Character,
-    };
 
 	string spriteName; //current item
 
@@ -55,7 +50,10 @@ public class CharacterSlot : MonoBehaviour {
         {
             Calculate();   
         }
-		
+        else
+        {
+            ModelSetup();
+        }
 	}
 
 #if (UNITY_ANDROID||UNITY_IPHONE) && !UNITY_EDITOR
@@ -107,6 +105,12 @@ public class CharacterSlot : MonoBehaviour {
 			UpdateCursor();
 		}
 	}
+
+    void ModelSetup()
+    {
+        var SlotCharacterName = transform.GetChild(0).GetComponent<UISprite>().spriteName;
+        GameObject.Find("Character").GetComponent<CharacterSelect>().SelectedCharacter(SlotCharacterName);
+    }
 
 	void UpdateCursor ()
 	{

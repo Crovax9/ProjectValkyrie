@@ -1126,7 +1126,7 @@ GameObject:
   - 114: {fileID: 11484228}
   - 114: {fileID: 11456338}
   m_Layer: 0
-  m_Name: Goblin_archer
+  m_Name: GoblinArcher
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
