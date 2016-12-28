@@ -539,7 +539,6 @@ GameObject:
   - 143: {fileID: 14348930}
   - 114: {fileID: 11442380}
   - 114: {fileID: 11494168}
-  - 114: {fileID: 11440298}
   m_Layer: 0
   m_Name: EntMage
   m_TagString: Player
@@ -1099,7 +1098,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162462}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1000, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_Children:
   - {fileID: 499754}
@@ -1479,17 +1478,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11440298
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 162462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 196dd5a31cb974c458a3123010dfbeda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11442380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1686,6 +1674,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

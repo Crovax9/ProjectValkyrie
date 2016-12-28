@@ -53,7 +53,7 @@ public class Singleton{
         
     private void SortByDistanceThenByHealthPoint()
     {
-        var orderedCharacterInfo = characterData.OrderBy(x => x.GetRange()).ThenByDescending(x => x.GetHealthPoint());
+        var orderedCharacterInfo = characterData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetHealthPoint());
         selectedCharacterList = orderedCharacterInfo.Where(obj => obj.SelectedInfo == selectedCharacte).ToList();
         nonselectedCharacterList = orderedCharacterInfo.Where(obj => obj.SelectedInfo == nonSelectedCharacter).ToList();
     }

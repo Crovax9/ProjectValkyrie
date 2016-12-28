@@ -9,7 +9,7 @@ public class CharDataClass
     private readonly int mAttack;
     private readonly int mMagicAttack;
     private readonly int mHealthPoint;
-    private readonly float mRange;
+    private float mRange;
     private int mSelectedInfo;
 
     public CharDataClass(string name, int attack, int magicattack, int healthPoint, float range, int selectedInfo)
@@ -26,7 +26,17 @@ public class CharDataClass
     public int GetAttack(){ return mAttack; }
     public int GetMagicAttack() { return mMagicAttack; }
     public int GetHealthPoint() { return mHealthPoint; }
-    public float GetRange(){ return mRange; }
+    public float GetSetRange
+    { 
+        get
+        {
+            return mRange;
+        }
+        set
+        {
+            mRange = value;
+        }
+    }
     public int SelectedInfo
     {
         get
@@ -46,7 +56,6 @@ public class CharacterDataParse : MonoBehaviour {
         if (Singleton.Instance.characterData.Count == 0)
         {
             List<Dictionary<string,object>> data = CSVReader.Read("PlayerCharacterTable");
-
             for(var i=0; i< data.Count; i++)
             {
                 CharDataClass Data = new CharDataClass((string)data [i] ["Name"], (int)data [i] ["Attack"], (int)data [i] ["MagicAttack"], (int)data [i] ["HP"], Convert.ToSingle(data[i]["Range"]), (int)data[i]["DeckInfo"]);
