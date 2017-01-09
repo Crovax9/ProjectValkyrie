@@ -5,6 +5,12 @@ using System.Linq;
 
 public class StageUIController : MonoBehaviour {
 
+    public GameObject QuestBoard;
+    public GameObject CharacterBoard;
+
+    private int SelectStageIndex;
+    public List<GameObject> EnemySlot;
+
 	public void StageSelected(GameObject selectStage)
 	{
 		QuestBoard.SetActive (true);
@@ -54,13 +60,14 @@ public class StageUIController : MonoBehaviour {
                     {
                         var nItem = enemyName.Equals("null") ? null : enemyName;
                         EnemySlot[index].GetComponent<CharacterSlot>().SetSlot(nItem);
+                        EnemySelectedInfoSet(nItem);
                     });
             });
 	}
 
-	public GameObject QuestBoard;
-	public GameObject CharacterBoard;
-
-	private int SelectStageIndex;
-	public List<GameObject> EnemySlot;
+    private void EnemySelectedInfoSet(string name)
+    {
+        Singleton.Instance.enemyData.ForEach(e => e.SelectedInfo = 0);
+        Singleton.Instance.enemyData.Where(e => e.GetName() == name).ForEach(e => e.SelectedInfo = 1);
+    }
 }

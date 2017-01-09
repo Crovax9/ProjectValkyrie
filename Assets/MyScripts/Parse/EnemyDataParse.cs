@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-public class CharDataClass
+public class EnemyDataClass
 {
     private readonly string mName;
     private readonly int mAttack;
@@ -11,7 +11,7 @@ public class CharDataClass
     private float mRange;
     private int mSelectedInfo;
 
-    public CharDataClass(string name, int attack, int healthPoint, float range, int selectedInfo)
+    public EnemyDataClass(string name, int attack, int healthPoint, float range, int selectedInfo)
     {
         mName = name;
         mAttack = attack;
@@ -47,17 +47,17 @@ public class CharDataClass
     }
 }
 
-public class CharacterDataParse : MonoBehaviour {
+public class EnemyDataParse : MonoBehaviour {
 
-	void Start () {
-        if (Singleton.Instance.characterData.Count == 0)
+    void Start () {
+        if (Singleton.Instance.enemyData.Count == 0)
         {
-            List<Dictionary<string,object>> data = CSVReader.Read("PlayerCharacterTable");
+            List<Dictionary<string,object>> data = CSVReader.Read("EnemyDataTable");
             for(var i=0; i< data.Count; i++)
             {
-                CharDataClass Data = new CharDataClass((string)data [i] ["Name"], (int)data [i] ["Attack"], (int)data [i] ["HP"], Convert.ToSingle(data[i]["Range"]), (int)data[i]["DeckInfo"]);
-                Singleton.Instance.characterData.Add (Data);
+                EnemyDataClass Data = new EnemyDataClass((string)data [i] ["Name"], (int)data [i] ["Attack"], (int)data [i] ["HP"], Convert.ToSingle(data[i]["Range"]), (int)data[i]["StageInfo"]);
+                Singleton.Instance.enemyData.Add (Data);
             }
         }
-	}
+    }
 }

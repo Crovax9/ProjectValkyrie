@@ -1123,7 +1123,7 @@ GameObject:
   - 95: {fileID: 9579484}
   - 143: {fileID: 14321452}
   - 114: {fileID: 11437678}
-  - 114: {fileID: 11484228}
+  - 114: {fileID: 11411860}
   m_Layer: 0
   m_Name: GoblinArcher
   m_TagString: Player
@@ -2376,6 +2376,20 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11411860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18aff1248ab0adb4a97df65bcd2dcfca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  runSpeed: 1.7
+  gravity: 20
 --- !u!114 &11437678
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2389,20 +2403,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   SearchedFlag: 0
---- !u!114 &11484228
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 190178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba673b0f0c7b5ca4e81443425e5858b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
-  runSpeed: 1.7
-  gravity: 20
 --- !u!137 &13716774
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

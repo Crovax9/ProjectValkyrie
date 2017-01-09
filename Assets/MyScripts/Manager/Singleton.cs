@@ -11,6 +11,9 @@ public class Singleton{
     public List<CharDataClass> selectedCharacterList;
     public List<CharDataClass> nonselectedCharacterList;
 
+    public List<EnemyDataClass> enemyData = new List<EnemyDataClass>();
+    public List<EnemyDataClass> selectedEnemyData;
+
     public readonly int selectedCharacte = 1;
     public readonly int nonSelectedCharacter = 0;
 
@@ -50,11 +53,22 @@ public class Singleton{
     {
         SortByDistanceThenByHealthPoint();
     }
+
+    public void SetEnemy()
+    {
+        SortByDistanceThenByHealthPointofEnemy();
+    }
         
     private void SortByDistanceThenByHealthPoint()
     {
         var orderedCharacterInfo = characterData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetHealthPoint());
         selectedCharacterList = orderedCharacterInfo.Where(obj => obj.SelectedInfo == selectedCharacte).ToList();
         nonselectedCharacterList = orderedCharacterInfo.Where(obj => obj.SelectedInfo == nonSelectedCharacter).ToList();
+    }
+
+    private void SortByDistanceThenByHealthPointofEnemy()
+    {
+        var orderedEnemysInfo = enemyData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetHealthPoint());
+        selectedEnemyData = orderedEnemysInfo.Where(obj => obj.SelectedInfo == selectedCharacte).ToList();
     }
 }

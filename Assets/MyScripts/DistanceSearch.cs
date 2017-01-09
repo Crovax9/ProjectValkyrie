@@ -8,7 +8,8 @@ public class DistanceSearch : MonoBehaviour {
 	private const string playerTag = "Player";
 	public GameObject target;
 	public bool SearchedFlag = false;
-    public CharDataClass battleStatus;
+    public CharDataClass playerStatus;
+    public EnemyDataClass enemyStatus;
 
 	void Update () {
         if (target != null)
@@ -31,11 +32,16 @@ public class DistanceSearch : MonoBehaviour {
         {
             SetDistance();
         }
+        else
+        {
+            int index = Singleton.Instance.enemyData.FindIndex(c => c.GetName() == this.transform.name);
+            enemyStatus = Singleton.Instance.enemyData[index];
+        }
         var targetTag = isSearchingEnemy ? enemyTag : playerTag;
 
         var targetObjects = GameObject.FindGameObjectsWithTag(targetTag).ToList();//TargetObject検索
 
-        var myAttackRange = isSearchingEnemy ? battleStatus.GetSetRange : 25; //敵の場合、射程距離は50で固定、PlayerCharacterは自分のデータから射程距離を参照
+        var myAttackRange = isSearchingEnemy ? playerStatus.GetSetRange : enemyStatus.GetSetRange; //敵の場合、射程距離は50で固定、PlayerCharacterは自分のデータから射程距離を参照
 
         var orderedObjectsByDistance = targetObjects.OrderBy(obj => GetSqrMagnitude(obj));//TargetObjectとの距離順番でSort
         var closestObject = orderedObjectsByDistance.Where(obj => GetSqrMagnitude(obj) < myAttackRange).FirstOrDefault();//上でSortしたことの中でAttackRangeの中にあるものSortして一つ目のこと選択
@@ -48,32 +54,48 @@ public class DistanceSearch : MonoBehaviour {
     {
         string name = this.transform.name;
         int index = Singleton.Instance.selectedCharacterList.FindIndex(c => c.GetName() == name);
-        battleStatus = Singleton.Instance.selectedCharacterList[index];
+        playerStatus = Singleton.Instance.selectedCharacterList[index];
         switch (index)
         {
             case 0:
-                battleStatus.GetSetRange = 20.0f;
+                playerStatus.GetSetRange = 20.0f;
                 break;
 
             case 1:
-                battleStatus.GetSetRange = 40.0f;
+                playerStatus.GetSetRange = 40.0f;
                 break;
 
             case 2:
-                battleStatus.GetSetRange = 60.0f;
+                playerStatus.GetSetRange = 60.0f;
                 break;
 
             case 3:
-                battleStatus.GetSetRange = 80.0f;
+                playerStatus.GetSetRange = 80.0f;
                 break;
 
             case 4:
-                battleStatus.GetSetRange = 100.0f;
+                playerStatus.GetSetRange = 100.0f;
                 break;
 
             default:
 
                 break;
         }
+    }
+
+    public void GetDamage(int Attack)
+    {
+        Debug.Log("SendMessage");
+        /*switch(this.transform.tag)
+        {
+            case enemyTag:
+
+                break;
+
+            case playerTag:
+
+                break;
+
+        }*/
     }
 }
