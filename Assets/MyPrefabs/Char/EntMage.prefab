@@ -538,7 +538,7 @@ GameObject:
   - 95: {fileID: 9537574}
   - 143: {fileID: 14348930}
   - 114: {fileID: 11442380}
-  - 114: {fileID: 11483284}
+  - 114: {fileID: 11489330}
   m_Layer: 0
   m_Name: EntMage
   m_TagString: Player
@@ -1491,7 +1491,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   SearchedFlag: 0
---- !u!114 &11483284
+--- !u!114 &11489330
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1499,7 +1499,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 162462}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5996fdf1d1f23404a86b633f55750c35, type: 3}
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5

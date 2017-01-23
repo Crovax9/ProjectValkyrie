@@ -42,7 +42,7 @@ public class IguanaController : MonoBehaviour {
             //battle -> run or idle chage
         }
 
-        if (stateInfo.IsName("idle_battle")) 
+        if (stateInfo.IsName("idle_battle") && !attackState) 
         {
             StartCoroutine(AttackCoroutin());
         }
@@ -61,22 +61,26 @@ public class IguanaController : MonoBehaviour {
     IEnumerator AttackCoroutin()
     {
         attackState = true;
-        switch (iguanaClass)
+        if (distanceScripts.target != null)
         {
-            case "IguanaWarrior":
-                characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
-                distanceScripts.target.SendMessage("GetDamage", distanceScripts.enemyStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
-                break;
+            switch (iguanaClass)
+            {
+                case "IguanaWarrior":
+                    characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
+                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.enemyStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
 
-            case "IguanaMage":
-                characterAnimator.SetInteger ("moving", Random.Range(6, 8));//AttackMotion Random Play
-                distanceScripts.target.SendMessage("GetDamage", distanceScripts.enemyStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
-                break;
+                case "IguanaMage":
+                    characterAnimator.SetInteger ("moving", Random.Range(6, 8));//AttackMotion Random Play
+                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.enemyStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
 
-            default:
+                default:
 
-                break;
+                    break;
+            }
         }
+       
         yield return new WaitForSeconds(2.5f);
         attackState = false;
     }

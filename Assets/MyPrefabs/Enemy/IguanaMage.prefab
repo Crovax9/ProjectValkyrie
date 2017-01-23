@@ -1289,7 +1289,7 @@ GameObject:
   - 95: {fileID: 9549244}
   - 143: {fileID: 14384868}
   - 114: {fileID: 11459452}
-  - 114: {fileID: 11450002}
+  - 114: {fileID: 11485368}
   m_Layer: 0
   m_Name: IguanaMage
   m_TagString: Untagged
@@ -2297,7 +2297,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188766}
-  m_LocalRotation: {x: -0.03289512, y: 0.81601894, z: -0.5768739, w: 0.015737701}
+  m_LocalRotation: {x: -0.032895118, y: 0.8160188, z: -0.57687384, w: 0.0157377}
   m_LocalPosition: {x: 2.6775523e-11, y: 0.0048341462, z: 5.1921234e-10}
   m_LocalScale: {x: 1.0000001, y: 1, z: 0.99999976}
   m_Children:
@@ -2487,17 +2487,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11450002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 198134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 159e85f730358934391ef162ea7fde8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11459452
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2511,6 +2500,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   SearchedFlag: 0
+--- !u!114 &11485368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  runSpeed: 1.7
+  gravity: 20
 --- !u!137 &13749870
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

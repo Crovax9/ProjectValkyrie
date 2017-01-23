@@ -7,7 +7,7 @@ public class EnemyDataClass
 {
     private readonly string mName;
     private readonly int mAttack;
-    private readonly int mHealthPoint;
+    private int mHealthPoint;
     private float mRange;
     private int mSelectedInfo;
 
@@ -22,7 +22,19 @@ public class EnemyDataClass
 
     public string GetName() { return mName; }
     public int GetAttack(){ return mAttack; }
-    public int GetHealthPoint() { return mHealthPoint; }
+    //public int GetHealthPoint() { return mHealthPoint; }
+
+    public int GetSetHealthPoint
+    {
+        get
+        {
+            return mHealthPoint;
+        }
+        set
+        {
+            mHealthPoint = value;   
+        }
+    }
     public float GetSetRange
     { 
         get

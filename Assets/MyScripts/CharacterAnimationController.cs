@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GoblinController : MonoBehaviour {
+public class CharacterAnimationController : MonoBehaviour {
 
     private Animator characterAnimator;
     private CharacterController controller;
@@ -9,9 +9,10 @@ public class GoblinController : MonoBehaviour {
     public float runSpeed = 1.7f;
     public float gravity = 20.0f;
     private Vector3 moveDirection = Vector3.zero;
-    private string goblinClass;
 
     private bool attackState = false;
+
+
 
     private DistanceSearch distanceScripts;
 
@@ -22,7 +23,6 @@ public class GoblinController : MonoBehaviour {
         distanceScripts = GetComponent<DistanceSearch> ();
         characterAnimator = GetComponent<Animator>();
         controller = GetComponent<CharacterController> ();
-        goblinClass = this.transform.name;
         characterAnimator.SetInteger ("moving", 1);
     }
 
@@ -35,16 +35,12 @@ public class GoblinController : MonoBehaviour {
             characterAnimator.SetInteger ("battle", 1);
             //idle or run -> battle change
         } 
+
         else
         {
             characterAnimator.SetInteger ("battle", 0);
             characterAnimator.SetInteger ("moving", 1);
             //battle -> run or idle chage
-        }
-
-        if (stateInfo.IsName("idle_battle") && !attackState) 
-        {
-            StartCoroutine(AttackCoroutin());
         }
 
         if (characterAnimator.GetInteger ("moving") == 1) {
@@ -58,36 +54,82 @@ public class GoblinController : MonoBehaviour {
         }
     }
 
-    IEnumerator AttackCoroutin()
+    public void SetBattle()
     {
-        attackState = true;
+        characterAnimator.SetInteger ("moving", 0);
+        characterAnimator.SetInteger ("battle", 1);
+        //idle or run -> battle change
+    }
+
+    public void SetIdle()
+    {
+        characterAnimator.SetInteger ("battle", 0);
+        characterAnimator.SetInteger ("moving", 1);
+        //battle -> run or idle chage
+    }
+
+    public void AttackAnimation(int attackDamage)
+    {
         if (distanceScripts.target != null)
         {
-            switch (goblinClass)
+            switch (this.transform.name)
             {
+                case "EntMage":
+                    characterAnimator.SetInteger("moving", Random.Range(7, 9));//AttackMotion Random Play
+                    break;
+
                 case "GoblinWarrior":
                     characterAnimator.SetInteger("moving", 3);//AttackMotion Random Play
-                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
                     break;
 
                 case "GoblinShaman":
                     characterAnimator.SetInteger ("moving", Random.Range(5, 7));//AttackMotion Random Play
-                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
                     break;
 
                 case "GoblinArcher":
                     characterAnimator.SetInteger("moving", 7);
-                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
+
+                case "IguanaMage":
+                    characterAnimator.SetInteger ("moving", Random.Range(6, 8));//AttackMotion Random Play
+                    break;
+
+                case "OgreShaman":
+                    characterAnimator.SetInteger ("moving", Random.Range(6, 8));//AttackMotion Random Play
+                    break;
+
+                case "OgreWarrior":
+                    characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
+                    break;
+
+                case "Rabbit":
+                    characterAnimator.SetInteger ("moving", Random.Range(3, 6));//AttackMotion Random Play
                     break;
 
                 default:
-
+                    characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
                     break;
             }
+            distanceScripts.target.SendMessage("GetDamage", attackDamage, SendMessageOptions.DontRequireReceiver);
         }
 
-        yield return new WaitForSeconds(2.5f);
-        attackState = false;
+    }
 
+    public void HitAnimation()
+    {
+        if (!stateInfo.IsName("hit_1"))
+        {
+            characterAnimator.SetInteger("moving", 15);//HitMotion Random Play
+        }
+    }
+
+    public void DeathAnimation()
+    {
+        if (!stateInfo.IsName("death_1"))
+        {
+            this.SendMessage("AttackAnimationStop");
+            characterAnimator.SetInteger("moving", 13);//DeathMotion Random Play
+            Destroy(this.gameObject, 1.5f);
+        }
     }
 }

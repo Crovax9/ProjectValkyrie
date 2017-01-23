@@ -61,14 +61,14 @@ public class Singleton{
         
     private void SortByDistanceThenByHealthPoint()
     {
-        var orderedCharacterInfo = characterData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetHealthPoint());
+        var orderedCharacterInfo = characterData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetSetHealthPoint);
         selectedCharacterList = orderedCharacterInfo.Where(obj => obj.SelectedInfo == selectedCharacte).ToList();
         nonselectedCharacterList = orderedCharacterInfo.Where(obj => obj.SelectedInfo == nonSelectedCharacter).ToList();
     }
 
     private void SortByDistanceThenByHealthPointofEnemy()
     {
-        var orderedEnemysInfo = enemyData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetHealthPoint());
+        var orderedEnemysInfo = enemyData.OrderBy(x => x.GetSetRange).ThenByDescending(x => x.GetSetHealthPoint);
         selectedEnemyData = orderedEnemysInfo.Where(obj => obj.SelectedInfo == selectedCharacte).ToList();
     }
 }

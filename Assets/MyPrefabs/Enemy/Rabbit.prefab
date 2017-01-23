@@ -627,7 +627,7 @@ GameObject:
   - 95: {fileID: 9523058}
   - 143: {fileID: 14372846}
   - 114: {fileID: 11494086}
-  - 114: {fileID: 11463370}
+  - 114: {fileID: 11465622}
   m_Layer: 0
   m_Name: Rabbit
   m_TagString: Untagged
@@ -1533,7 +1533,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11463370
+--- !u!114 &11465622
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1541,9 +1541,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 183714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe7178306812954394e8f4610c0e8f2, type: 3}
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
+  runSpeed: 1.7
+  gravity: 20
 --- !u!114 &11494086
 MonoBehaviour:
   m_ObjectHideFlags: 1

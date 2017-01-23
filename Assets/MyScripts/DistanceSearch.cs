@@ -6,10 +6,14 @@ public class DistanceSearch : MonoBehaviour {
 
 	private const string enemyTag = "enemyAim";
 	private const string playerTag = "Player";
+    const int deathHealthPoint = 0;
 	public GameObject target;
 	public bool SearchedFlag = false;
     public CharDataClass playerStatus;
     public EnemyDataClass enemyStatus;
+    private WaitForSeconds attackAnimTime = new WaitForSeconds(2.5f);
+    private WaitForSeconds hitAnimTime = new WaitForSeconds(0.5f);
+
 
 	void Update () {
         if (target != null)
@@ -34,6 +38,7 @@ public class DistanceSearch : MonoBehaviour {
         }
         else
         {
+            Singleton.Instance.SetEnemy();
             int index = Singleton.Instance.enemyData.FindIndex(c => c.GetName() == this.transform.name);
             enemyStatus = Singleton.Instance.enemyData[index];
         }
@@ -47,11 +52,31 @@ public class DistanceSearch : MonoBehaviour {
         var closestObject = orderedObjectsByDistance.Where(obj => GetSqrMagnitude(obj) < myAttackRange).FirstOrDefault();//上でSortしたことの中でAttackRangeの中にあるものSortして一つ目のこと選択
 
         target = closestObject;
-        if (target != null) SearchedFlag = true;
+        if (target != null)
+        {
+            this.SendMessage("SetBattle", SendMessageOptions.DontRequireReceiver);
+            var myAttackDamage = isSearchingEnemy ? playerStatus.GetAttack() : enemyStatus.GetAttack();
+
+            SearchedFlag = true;
+            StartCoroutine("AttackAnimationCoroutine", myAttackDamage);
+        }
+    }
+
+    IEnumerator AttackAnimationCoroutine(int attackDamage)
+    {
+        yield return attackAnimTime;
+        this.SendMessage("AttackAnimation", attackDamage, SendMessageOptions.DontRequireReceiver);
+        StartCoroutine("AttackAnimationCoroutine", attackDamage);
+    }
+
+    public void AttackAnimationStop()
+    {
+        StopCoroutine("AttackAnimationCoroutine");
     }
 
     void SetDistance()
     {
+        Singleton.Instance.SetCharacter();
         string name = this.transform.name;
         int index = Singleton.Instance.selectedCharacterList.FindIndex(c => c.GetName() == name);
         playerStatus = Singleton.Instance.selectedCharacterList[index];
@@ -83,19 +108,42 @@ public class DistanceSearch : MonoBehaviour {
         }
     }
 
-    public void GetDamage(int Attack)
+    public void GetDamage(int attackDamage)
     {
-        Debug.Log("SendMessage");
-        /*switch(this.transform.tag)
+        StartCoroutine("DamageCoroutine", attackDamage);
+    }
+    IEnumerator DamageCoroutine(int attackDamage)
+    {
+        yield return hitAnimTime;
+        switch(this.transform.tag)
         {
             case enemyTag:
-
+                enemyStatus.GetSetHealthPoint -= attackDamage;
+                if (enemyStatus.GetSetHealthPoint <= deathHealthPoint)
+                {
+                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);
+                    enemyStatus.SelectedInfo = 0;
+                }
+                else
+                {
+                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);
+                }
+                //Debug.Log(enemyStatus.GetSetHealthPoint);
                 break;
 
             case playerTag:
-
+                playerStatus.GetSetHealthPoint -= attackDamage;
+                if (playerStatus.GetSetHealthPoint <= deathHealthPoint)
+                {
+                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);
+                    playerStatus.SelectedInfo = 0;
+                }
+                else
+                {
+                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);
+                }
+                Debug.Log(playerStatus.GetSetHealthPoint);
                 break;
-
-        }*/
+        }
     }
 }

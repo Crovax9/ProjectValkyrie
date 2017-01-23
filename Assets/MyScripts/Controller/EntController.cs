@@ -63,24 +63,64 @@ public class EntController : MonoBehaviour {
     IEnumerator AttackCoroutin()
     {
         attackState = true;
-        switch (entClass)
+        if (distanceScripts.target != null)
         {
-            case "EntWarrior":
-                characterAnimator.SetInteger("moving", Random.Range(3, 5));//AttackMotion Random Play
-                distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
-                break;
+            switch (entClass)
+            {
+                case "EntWarrior":
+                    characterAnimator.SetInteger("moving", Random.Range(3, 5));//AttackMotion Random Play
+                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
 
-            case "EntMage":
-                characterAnimator.SetInteger ("moving", Random.Range(7, 9));//AttackMotion Random Play
-                distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
-                break;
+                case "EntMage":
+                    characterAnimator.SetInteger("moving", Random.Range(7, 9));//AttackMotion Random Play
+                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
 
-            default:
+              
 
-                break;
+                default:
+
+                    break;
+            }
         }
+       
         yield return new WaitForSeconds(2.5f);
         attackState = false;
+
+    }
+
+    public void AttackAnimation()
+    {
+        if (distanceScripts.target != null)
+        {
+            switch (entClass)
+            {
+                case "EntWarrior":
+                    characterAnimator.SetInteger("moving", Random.Range(3, 5));//AttackMotion Random Play
+                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
+
+                case "EntMage":
+                    characterAnimator.SetInteger("moving", Random.Range(7, 9));//AttackMotion Random Play
+                    distanceScripts.target.SendMessage("GetDamage", distanceScripts.playerStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+                    break;
+
+                default:
+
+                    break;
+            }
+        }
+
+    }
+
+    public void HitAnimation()
+    {
+
+    }
+
+    public void DeathAnimation()
+    {
 
     }
 }

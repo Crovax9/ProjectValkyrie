@@ -42,7 +42,7 @@ public class OgreController : MonoBehaviour {
             //battle -> run or idle chage
         }
 
-        if (stateInfo.IsName("idle_battle")) 
+        if (stateInfo.IsName("idle_battle") && !attackState) 
         {
             StartCoroutine(AttackCoroutin());
         }

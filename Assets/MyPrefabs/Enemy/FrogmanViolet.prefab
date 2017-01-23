@@ -386,7 +386,7 @@ GameObject:
   - 95: {fileID: 9532236}
   - 143: {fileID: 14326574}
   - 114: {fileID: 11469888}
-  - 114: {fileID: 11432956}
+  - 114: {fileID: 11434208}
   m_Layer: 0
   m_Name: FrogmanViolet
   m_TagString: Untagged
@@ -1257,7 +1257,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140258}
-  m_LocalRotation: {x: -0.27582103, y: 0.65217084, z: -0.27722806, w: 0.6494157}
+  m_LocalRotation: {x: -0.275821, y: 0.6521708, z: -0.27722803, w: 0.6494156}
   m_LocalPosition: {x: 0.00037860687, y: 0.0027401836, z: -0.0017603871}
   m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
   m_Children:
@@ -1785,7 +1785,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11432956
+--- !u!114 &11434208
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1793,9 +1793,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 141766}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681ddd047556bee4d9bdaf7aa7061c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0.5
+  runSpeed: 1.7
+  gravity: 20
 --- !u!114 &11469888
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -39,7 +39,7 @@ public class FrogmanController : MonoBehaviour {
             //battle -> run or idle chage
         }
 
-        if (stateInfo.IsName("idle_battle")) 
+        if (stateInfo.IsName("idle_battle") && !attackState) 
         {
             StartCoroutine(AttackCoroutin());
         }
@@ -57,10 +57,14 @@ public class FrogmanController : MonoBehaviour {
 
     IEnumerator AttackCoroutin()
     {
-
-        characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
-        distanceScripts.target.SendMessage("GetDamage", distanceScripts.enemyStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
         attackState = true;
+        characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
+        if (distanceScripts.target != null)
+        {
+            distanceScripts.target.SendMessage("GetDamage", distanceScripts.enemyStatus.GetAttack(), SendMessageOptions.DontRequireReceiver);
+        }
+
+
 
         yield return new WaitForSeconds(2.5f);
         attackState = false;

@@ -1061,7 +1061,7 @@ GameObject:
   - 95: {fileID: 9534274}
   - 143: {fileID: 14358958}
   - 114: {fileID: 11496036}
-  - 114: {fileID: 11408508}
+  - 114: {fileID: 11461064}
   m_Layer: 0
   m_Name: FrogmanBlue
   m_TagString: enemyAim
@@ -1221,7 +1221,7 @@ GameObject:
   - 95: {fileID: 9580686}
   - 143: {fileID: 14363246}
   - 114: {fileID: 11483292}
-  - 114: {fileID: 11426710}
+  - 114: {fileID: 11443982}
   m_Layer: 0
   m_Name: FrogmanBlue
   m_TagString: enemyAim
@@ -2174,7 +2174,7 @@ GameObject:
   - 95: {fileID: 9545482}
   - 143: {fileID: 14350544}
   - 114: {fileID: 11468514}
-  - 114: {fileID: 11470578}
+  - 114: {fileID: 11469400}
   m_Layer: 0
   m_Name: FrogmanViolet
   m_TagString: enemyAim
@@ -4817,7 +4817,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156840}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071067}
-  m_LocalPosition: {x: 18, y: -0, z: -4.16}
+  m_LocalPosition: {x: 16.85, y: -0, z: -4.16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 413642}
@@ -9009,21 +9009,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11408508
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 121020}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681ddd047556bee4d9bdaf7aa7061c6d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.5
-  runSpeed: 1.7
-  gravity: 20
---- !u!114 &11426710
+--- !u!114 &11443982
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -9031,7 +9017,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 124516}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681ddd047556bee4d9bdaf7aa7061c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  runSpeed: 1.7
+  gravity: 20
+--- !u!114 &11461064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
@@ -9050,7 +9050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 0}
   SearchedFlag: 0
---- !u!114 &11470578
+--- !u!114 &11469400
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -9058,7 +9058,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 156840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 681ddd047556bee4d9bdaf7aa7061c6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 20e343a1ea3228d489b0194fccc9a7fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
