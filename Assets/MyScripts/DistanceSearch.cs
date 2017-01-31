@@ -11,7 +11,7 @@ public class DistanceSearch : MonoBehaviour {
 	public bool SearchedFlag = false;
     public CharDataClass playerStatus;
     public EnemyDataClass enemyStatus;
-    private WaitForSeconds attackAnimTime = new WaitForSeconds(2.5f);
+    private WaitForSeconds attackAnimTime = new WaitForSeconds(3.5f);
     private WaitForSeconds hitAnimTime = new WaitForSeconds(0.5f);
 
 
@@ -110,11 +110,6 @@ public class DistanceSearch : MonoBehaviour {
 
     public void GetDamage(int attackDamage)
     {
-        StartCoroutine("DamageCoroutine", attackDamage);
-    }
-    IEnumerator DamageCoroutine(int attackDamage)
-    {
-        yield return hitAnimTime;
         switch(this.transform.tag)
         {
             case enemyTag:
@@ -128,7 +123,7 @@ public class DistanceSearch : MonoBehaviour {
                 {
                     this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);
                 }
-                //Debug.Log(enemyStatus.GetSetHealthPoint);
+                Debug.Log(enemyStatus.GetSetHealthPoint);
                 break;
 
             case playerTag:
@@ -137,13 +132,53 @@ public class DistanceSearch : MonoBehaviour {
                 {
                     this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);
                     playerStatus.SelectedInfo = 0;
+                    Singleton.Instance.SetCharacter();
+                    GameObject.Find("Main Camera").SendMessage("GetFollowPlayer");
                 }
                 else
                 {
                     this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);
                 }
-                Debug.Log(playerStatus.GetSetHealthPoint);
+                //Debug.Log(playerStatus.GetSetHealthPoint);
+                break;
+        }
+       // StartCoroutine("DamageCoroutine", attackDamage);
+    }
+   
+    IEnumerator DamageCoroutine(int attackDamage)
+    {
+        yield return hitAnimTime;
+        switch(this.transform.tag)
+        {
+            case enemyTag:
+                enemyStatus.GetSetHealthPoint -= attackDamage;
+                if (enemyStatus.GetSetHealthPoint <= deathHealthPoint)
+                {
+                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                    enemyStatus.SelectedInfo = 0;
+                }
+                else
+                {
+                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                }
+                //Debug.Log(enemyStatus.GetSetHealthPoint);
+                break;
+
+            case playerTag:
+                playerStatus.GetSetHealthPoint -= attackDamage;
+                if (playerStatus.GetSetHealthPoint <= deathHealthPoint)
+                {
+                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                    playerStatus.SelectedInfo = 0;
+
+                }
+                else
+                {
+                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                }
+                //Debug.Log(playerStatus.GetSetHealthPoint);
                 break;
         }
     }
+
 }

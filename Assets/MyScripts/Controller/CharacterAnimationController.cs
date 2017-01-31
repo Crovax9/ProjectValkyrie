@@ -10,7 +10,7 @@ public class CharacterAnimationController : MonoBehaviour {
     public float gravity = 20.0f;
     private Vector3 moveDirection = Vector3.zero;
 
-    private bool attackState = false;
+   // private bool attackState = false;
 
 
 
@@ -68,7 +68,7 @@ public class CharacterAnimationController : MonoBehaviour {
         //battle -> run or idle chage
     }
 
-    public void AttackAnimation(int attackDamage)
+    public void AttackAnimation(int attackDamage)//DistanceSearch Sendmessage
     {
         if (distanceScripts.target != null)
         {
@@ -100,6 +100,7 @@ public class CharacterAnimationController : MonoBehaviour {
 
                 case "OgreWarrior":
                     characterAnimator.SetInteger ("moving", Random.Range(3, 5));//AttackMotion Random Play
+                    Debug.Log("bug");
                     break;
 
                 case "Rabbit":
@@ -117,7 +118,13 @@ public class CharacterAnimationController : MonoBehaviour {
 
     public void HitAnimation()
     {
-        if (!stateInfo.IsName("hit_1"))
+        StartCoroutine("HitAnimationRoutine");
+    }
+
+    IEnumerator HitAnimationRoutine()
+    {
+        yield return new WaitForSeconds(0.3f);
+        if (stateInfo.IsName("idle") || stateInfo.IsName("idle_battle"))
         {
             characterAnimator.SetInteger("moving", 15);//HitMotion Random Play
         }
@@ -130,6 +137,7 @@ public class CharacterAnimationController : MonoBehaviour {
             this.SendMessage("AttackAnimationStop");
             characterAnimator.SetInteger("moving", 13);//DeathMotion Random Play
             Destroy(this.gameObject, 1.5f);
+
         }
     }
 }
