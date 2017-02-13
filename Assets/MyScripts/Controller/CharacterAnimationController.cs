@@ -118,9 +118,13 @@ public class CharacterAnimationController : MonoBehaviour {
 
     public void HitAnimation()
     {
-        StartCoroutine("HitAnimationRoutine");
-    }
+        if (stateInfo.IsName("idle") || stateInfo.IsName("idle_battle"))
+        {
+            characterAnimator.SetInteger("moving", 15);//HitMotion Random Play
+        }
 
+    }
+    /*
     IEnumerator HitAnimationRoutine()
     {
         yield return new WaitForSeconds(0.3f);
@@ -129,9 +133,10 @@ public class CharacterAnimationController : MonoBehaviour {
             characterAnimator.SetInteger("moving", 15);//HitMotion Random Play
         }
     }
-
+*/
     public void DeathAnimation()
     {
+        GameObject.Find("UIController").SendMessage("SetoutComeUI");
         if (!stateInfo.IsName("death_1"))
         {
             this.SendMessage("AttackAnimationStop");
@@ -139,5 +144,7 @@ public class CharacterAnimationController : MonoBehaviour {
             Destroy(this.gameObject, 1.5f);
 
         }
+
+
     }
 }

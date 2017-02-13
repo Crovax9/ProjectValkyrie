@@ -8,6 +8,7 @@ public class LZInventoryManager : MonoBehaviour {
 	public UIAtlas atlas;
 	public List<CharacterSlot> nonselectedSlots;
 	public List<CharacterSlot> selectedSlots;
+
 	
 
 	void Start()

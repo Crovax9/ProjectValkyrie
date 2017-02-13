@@ -12,7 +12,6 @@ public class DistanceSearch : MonoBehaviour {
     public CharDataClass playerStatus;
     public EnemyDataClass enemyStatus;
     private WaitForSeconds attackAnimTime = new WaitForSeconds(3.5f);
-    private WaitForSeconds hitAnimTime = new WaitForSeconds(0.5f);
 
 
 	void Update () {
@@ -54,7 +53,7 @@ public class DistanceSearch : MonoBehaviour {
         target = closestObject;
         if (target != null)
         {
-            this.SendMessage("SetBattle", SendMessageOptions.DontRequireReceiver);
+            //this.SendMessage("SetBattle", SendMessageOptions.DontRequireReceiver);
             var myAttackDamage = isSearchingEnemy ? playerStatus.GetAttack() : enemyStatus.GetAttack();
 
             SearchedFlag = true;
@@ -116,50 +115,13 @@ public class DistanceSearch : MonoBehaviour {
                 enemyStatus.GetSetHealthPoint -= attackDamage;
                 if (enemyStatus.GetSetHealthPoint <= deathHealthPoint)
                 {
-                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);
+                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);//CharacterAnimationController.cs
                     enemyStatus.SelectedInfo = 0;
+                   
                 }
                 else
                 {
-                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);
-                }
-                Debug.Log(enemyStatus.GetSetHealthPoint);
-                break;
-
-            case playerTag:
-                playerStatus.GetSetHealthPoint -= attackDamage;
-                if (playerStatus.GetSetHealthPoint <= deathHealthPoint)
-                {
-                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);
-                    playerStatus.SelectedInfo = 0;
-                    Singleton.Instance.SetCharacter();
-                    GameObject.Find("Main Camera").SendMessage("GetFollowPlayer");
-                }
-                else
-                {
-                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);
-                }
-                //Debug.Log(playerStatus.GetSetHealthPoint);
-                break;
-        }
-       // StartCoroutine("DamageCoroutine", attackDamage);
-    }
-   
-    IEnumerator DamageCoroutine(int attackDamage)
-    {
-        yield return hitAnimTime;
-        switch(this.transform.tag)
-        {
-            case enemyTag:
-                enemyStatus.GetSetHealthPoint -= attackDamage;
-                if (enemyStatus.GetSetHealthPoint <= deathHealthPoint)
-                {
-                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
-                    enemyStatus.SelectedInfo = 0;
-                }
-                else
-                {
-                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);//CharacterAnimationController.cs
                 }
                 //Debug.Log(enemyStatus.GetSetHealthPoint);
                 break;
@@ -168,17 +130,21 @@ public class DistanceSearch : MonoBehaviour {
                 playerStatus.GetSetHealthPoint -= attackDamage;
                 if (playerStatus.GetSetHealthPoint <= deathHealthPoint)
                 {
-                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                    this.SendMessage("DeathAnimation", SendMessageOptions.DontRequireReceiver);//CharacterAnimationController.cs
                     playerStatus.SelectedInfo = 0;
-
+                    Singleton.Instance.SetCharacter();
+                    GameObject.Find("Main Camera").SendMessage("GetFollowPlayer");
+                   
                 }
                 else
                 {
-                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);//CharacteAnimationController
+                    this.SendMessage("HitAnimation", SendMessageOptions.DontRequireReceiver);//CharacterAnimationController.cs
                 }
                 //Debug.Log(playerStatus.GetSetHealthPoint);
                 break;
         }
     }
+   
+
 
 }
